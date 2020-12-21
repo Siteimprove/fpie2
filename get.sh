@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 set -e
 
-BASE="https://github.com/gaggle/fpie2/releases/download"
+BASE="https://github.com/siteimprove/fpie2/releases/download"
 VERSION=$VERSION
 TO="${TO:-.}"
 
