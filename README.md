@@ -1,5 +1,5 @@
 # File Packer Include/Exclude 2
-![build](https://github.com/gaggle/fpie2/workflows/build/badge.svg?branch=master)
+![build](https://github.com/siteimprove/fpie2/workflows/build/badge.svg?branch=master)
 
 ```
 Usage: fpie2 [OPTIONS] <CONTEXTDIR> <INCLUDEFILE>
