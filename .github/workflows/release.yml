@@ -24,7 +24,7 @@ jobs:
 
   test-alpine:
     runs-on: ubuntu-latest
-    container: jonlauridsen/node-nexe:10-alpine
+    container: siteimprovetbf/node-nexe:10-alpine
     needs:
       - build-nexe-images
     steps:

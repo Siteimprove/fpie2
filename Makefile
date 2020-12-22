@@ -10,12 +10,12 @@ clean:
 
 .PHONY: docker-build
 docker-build:
-	docker pull jonlauridsen/node-nexe:10-alpine || true
-	docker build -f docker-images/node-nexe-10-alpine.Dockerfile --cache-from jonlauridsen/node-nexe:10-alpine -t jonlauridsen/node-nexe:10-alpine .
+	docker pull siteimprovetbf/node-nexe:10-alpine || true
+	docker build -f docker-images/node-nexe-10-alpine.Dockerfile --cache-from siteimprovetbf/node-nexe:10-alpine -t siteimprovetbf/node-nexe:10-alpine .
 
 .PHONY: docker-publish
 docker-publish:
-	docker push jonlauridsen/node-nexe:10-alpine
+	docker push siteimprovetbf/node-nexe:10-alpine
 
 .PHONY: fix
 fix: _readme-fix
